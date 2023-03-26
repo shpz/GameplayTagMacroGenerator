@@ -8,9 +8,9 @@ A plugin based on an UnrealEngine for generating GameplayTag macros.
 
 ## 使用  Usage
 
-1. 在虚幻商城找到 GameplayTagMacroGenerator 插件并下载，选择安装到项目。
+1. 在虚幻商城找到 GameplayTagMacroGenerator 插件，下载并安装。
 
-    Find and download the GameplayTagMacroGenerator plugin in the UnrealEngine Marketplace, and choose to install it to the project.
+    Find the GameplayTagMacroGenerator plugin at the UnrealEngine Marketplace, download and install it.
 
 2. 打开项目，主工具栏多了个按钮 ![LOGO](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/Icon20.png "LOGO")，在菜单栏-窗口中也能找到。
 
@@ -36,6 +36,10 @@ A plugin based on an UnrealEngine for generating GameplayTag macros.
 
     ![Screenshot4](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/Screenshot4.png)
 
+    行名会将作为宏名，Tag 为目标 GameplayTag，开发评论将注释在宏上方。
+
+    The Row Name will be used as the macro name, and the Tag will be the target GameplayTag. Dev Comment will be annotated above the macro.
+
 6. 打开 CDT_GameplayTags，在父表格中添加 DT_CharacterGameplayTag。这里可以添加很多 GameplayTagDataTable。
 
     Open CDT_GameplayTags, add DT_CharacterGameplayTag to Parent Tables. here can add many GameplayTagDataTable.
@@ -48,8 +52,8 @@ A plugin based on an UnrealEngine for generating GameplayTag macros.
 
     ![Screenshot6](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/Screenshot6.png)
 
-8. 点击 ![LOGO](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/Icon20.png "LOGO")，生成宏文件。
+8. 点击 ![LOGO](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/Icon20.png "LOGO")生成宏文件，然后就可以在C++代码里通过宏拿到目标GameplayTag。
 
-    Click ![LOGO](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/Icon20.png "LOGO"), will generate macro file。
+    Click ![LOGO](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/Icon20.png "LOGO") generate macro file, then you can obtain the target GameplayTag through a macro in C++ code.
 
     ![Screenshot7](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/Screenshot7.png)
