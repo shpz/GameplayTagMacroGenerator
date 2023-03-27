@@ -1,10 +1,12 @@
 # GameplayTagMacroGenerator
 
-**中文文档点这里**
-
 ![Icon256](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/images/Icon256.png "LOGO")
 
 Unreal Engine based plugin for generate GameplayTag macro code.
+
+[**中文文档点这里**](https://gitee.com/shpoz/gameplay-tag-macro-generator-doc/blob/master/README.md)
+
+---------
 
 ## Feature
 1. Generate GameplayTag macro code with one click. The generated code includes macros, macro checks, and comments
