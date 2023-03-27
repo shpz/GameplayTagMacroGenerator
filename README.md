@@ -2,7 +2,7 @@
 
 **中文文档点这里**
 
-![LOGO](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/images/Icon256.png "LOGO")
+![Icon256](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/images/Icon256.png "LOGO")
 
 Unreal Engine based plugin for generate GameplayTag macro code.
 
@@ -16,7 +16,7 @@ Unreal Engine based plugin for generate GameplayTag macro code.
 
 1. In the Unreal Engine Marketplace search GameplayTagMacroGenerator code plugin, download and install.
 
-2. Open the project, there is an additional button ![LOGO](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/images/Icon20.png "LOGO") on the Main Toolbar, which can also be found in the Main Menu - Window.
+2. Open the project, there is an additional button ![Icon20](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/images/Icon20.png "LOGO") on the Main Toolbar, which can also be found in the Main Menu - Window.
 
     ![Screenshot1](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/images/Screenshot1.png)
 
