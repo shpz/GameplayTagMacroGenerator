@@ -7,8 +7,8 @@
 Unreal Engine based plugin for generate GameplayTag macro code.
 
 ## Feature
-1. Generate GameplayTag macro code with one click
-2. Check if the GameplayTag is duplicate to ensure security
+1. Generate GameplayTag macro code with one click. The generated code includes macros, macro checks, and comments
+2. Check if the GameplayTag is duplicate to ensure security. Duplicate GamePlaytags are printed in the console as warnings
 3. Script frameworks such as Unlua and PuerTS will be supported soon
 4. Continuous improvement of documentation, convenient secondary development and learning
 
