@@ -2,9 +2,9 @@
 
 ![LOGO](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/images/Icon256.png "LOGO")
 
-基于虚幻引擎制作的，用于生成 GameplayTag 宏的插件。
+基于虚幻引擎制作的代码插件。自动检查 GameplayTag 重复项、自动生成 C++ 可用的宏代码。
 
-A plugin based on an UnrealEngine for generating GameplayTag macros.
+Code plugin based on Unreal Engine. Automatically check GameplayTag duplicates, automatically generate C++ available macro code.
 
 ## 使用  Usage
 
