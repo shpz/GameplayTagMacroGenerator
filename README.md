@@ -4,7 +4,7 @@
 
 Unreal Engine based plugin for generate GameplayTag macro code.
 
-[**中文文档点这里**](https://gitee.com/shpoz/gameplay-tag-macro-generator-doc/blob/master/README.md)
+[**中文文档点这里**](https://zhuanlan.zhihu.com/p/617792556)
 
 ---------
 
