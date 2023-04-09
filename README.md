@@ -2,17 +2,20 @@
 
 ![Icon256](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/images/Icon256.png "LOGO")
 
-Unreal Engine based plugin for generate GameplayTag macro code.
+Unreal Engine based plugin for generate GameplayTag macro code. Safe, elegant, simple, convenient, and fast.
 
 [**中文文档点这里**](https://zhuanlan.zhihu.com/p/617792556)
 
 ---------
 
-## Feature
-1. Generate GameplayTag macro code with one click. The generated code includes macros, macro checks, and comments
-2. Check if the GameplayTag is duplicate to ensure security. Duplicate GamePlaytags are printed in the console as warnings
-3. Script frameworks such as Unlua and PuerTS will be supported soon
-4. Continuous improvement of documentation, convenient secondary development and learning
+## Features
+
+1. Generate GameplayTag macro code with one click. Generating code includes macros, macro checks, and comments. The GameplayTag collection source includes the GameplayTagTableList in the settings, as well as the defaultGameplayTags.ini configuration file
+2. Check if GameplayTag is duplicated. Duplicate GameplayTag will be printed in the form of a warning on the console
+3. In addition to supporting C++macros, it also supports popular scripting language frameworks such as Unlua and Purchases
+4. Complete code annotations for easy secondary development and learning
+5. The annotation style can be changed, and there are now two types: line annotations and document annotations
+6. C++ Code Force Alignment
 
 ## Usage
 
