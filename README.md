@@ -40,13 +40,23 @@ Unreal Engine based plugin for generate GameplayTag macro code.
 
     **Dev Comment** will be annotated above the macro.
 
-6. Open CDT_GameplayTags, add DT_CharacterGameplayTag to Parent Tables. here can add many GameplayTagDataTable.
+6. Open CDT_GameplayTags, add DT_CharacterGameplayTag to Parent Tables. here can add many GameplayTagDataTable. 
 
     ![Screenshot5](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/images/Screenshot5.png)
 
-7. After saved, open Main Menu - Project Settings - GameplayTag Macro Generator - Settings, fill in settings.
+    After, add CDT_GameplayTags to Project Settings - Project - GameplayTags - GameplayTagTableList
+
+7. After saved, open Main Menu - Project Settings - Project - GameplayTag Macro Generator, fill in settings.
 
     ![Screenshot6](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/images/Screenshot6.png)
+
+    There are three settings here:
+
+    **CppMacroFileOutputPath**: file output path, select the path for the header file in a project
+
+    **CppMacroFileOutputName**: file name, default to MyGameplayTags, can be modified at will
+
+    **CommentStyle**: Comment style, default to document comment, with two options: document comment and line comment
 
 8. Click ![LOGO](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/images/Icon20.png "LOGO") generate macro file, then you can obtain the target GameplayTag through a macro in code.
 
