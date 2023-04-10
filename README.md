@@ -35,12 +35,11 @@ Clearly, we need order and rules!
  */
 #define UI_XXX_XXX FGameplayTag::RequestGameplayTag(FName("UI.XXX.XXX"))
 #endif
+```
 
 This saves us from the tedious work of copying, pasting, and checking for duplicates.
 
 It's very smooth and elegant. I'm truly amazed by it.
-
-```
 
 ## GameplayTagMacroGenerator plugin
 Later, I rewrote the EditorBlueprintUtility in C++ at home and added editor support to improve the user experience.
