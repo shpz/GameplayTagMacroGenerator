@@ -8,14 +8,76 @@ Unreal Engine based plugin for generate GameplayTag macro code. Safe, elegant, s
 
 ---------
 
+## introduce
+GameplayTag is heavily used in the project through Blueprints and C++. The following are the ways that everyone adds GameplayTags:
+
+Add a DataTable with TableRow set to FGameplayTagTableRow in the settings.
+
+Add it in the GameplayTag editor.
+
+Write it directly in .ini files (yes, I do this -.-).
+
+Clearly, we need order and rules!
+
+1. We have decided to manage GameplayTags using DataTable in the following way:
+
+2. Use a CompositeDataTable as a container and add multiple child GameplayTagDataTables.
+
+3. Each child GameplayTagDataTable only contains one type of GameplayTag, for example, the UI DataTable is named DT_UIGameplayTags.
+
+4. Each child GameplayTagDataTable has a fixed prefix. For example, the UI-related GameplayTags are named http://UI.XXX.XXX.
+
+5. We created an EditorBlueprintUtility in Blueprint to check for duplicate GameplayTags in the DataTables and generate code like this:
+``` C++
+#ifndef UI_XXX_XXX
+/**
+ *	GameplayTagTableRow DevComment
+ */
+#define UI_XXX_XXX FGameplayTag::RequestGameplayTag(FName("UI.XXX.XXX"))
+#endif
+
+This saves us from the tedious work of copying, pasting, and checking for duplicates.
+
+It's very smooth and elegant. I'm truly amazed by it.
+
+```
+
+## GameplayTagMacroGenerator plugin
+Later, I rewrote the EditorBlueprintUtility in C++ at home and added editor support to improve the user experience.
+
+I named it GameplayTagMacroGenerator (GTMG for short).
+
+I am preparing to release it on the Unreal Marketplace. If it is successful, I will write a post to share my experience with submitting products to the marketplace.![Screenshot1](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/images/chidai.jpg)
+
 ## Features
 
-1. Generate GameplayTag macro code with one click. Generating code includes macros, macro checks, and comments. The GameplayTag collection source includes the GameplayTagTableList in the settings, as well as the defaultGameplayTags.ini configuration file
-2. Check if GameplayTag is duplicated. Duplicate GameplayTag will be printed in the form of a warning on the console
-3. In addition to supporting C++macros, it also supports popular scripting language frameworks such as Unlua and Purchases
-4. Complete code annotations for easy secondary development and learning
-5. The annotation style can be changed, and there are now two types: line annotations and document annotations
-6. C++ Code Force Alignment
+1. One-click generation of GameplayTag macro code. The generated code includes macros, macro checks, and comments.
+``` C++
+#ifndef UI_XXX_XXX
+/**
+ *	GameplayTagTableRow DevComment
+ */
+#define UI_XXX_XXX FGameplayTag::RequestGameplayTag(FName("UI.XXX.XXX"))
+#endif
+```
+The GameplayTag collection source includes the GameplayTagTableList in settings and the DefaultGameplayTags.ini configuration file.
+2. Check if the GameplayTag is duplicated. Duplicated GameplayTags will be printed as warnings in the console.
+3. In addition to support for C++ macros, it also supports popular script language frameworks such as Unlua and Puerts.
+4. Full code comments are provided for easy secondary development and learning.
+5. Sure, here is the translation of my previous response:
+``` C++
+// Line comments
+```
+
+AND
+
+```
+/**
+ *	Documention comments
+ */
+```
+
+6. Aligning C++ code makes compulsive disorders feel comfortable.
 
 ## Usage
 
