@@ -8,6 +8,8 @@ Unreal Engine based plugin for generate GameplayTag macro code. Safe, elegant, s
 
 ---------
 
+> TypeScript macro generator has been supported.
+
 ## introduce
 GameplayTag is heavily used in the project through Blueprints and C++. The following are the ways that everyone adds GameplayTags:
 
