@@ -44,11 +44,8 @@ This saves us from the tedious work of copying, pasting, and checking for duplic
 It's very smooth and elegant. I'm truly amazed by it.
 
 ## GameplayTagMacroGenerator plugin
-Later, I rewrote the EditorBlueprintUtility in C++ at home and added editor support to improve the user experience.
 
-I named it GameplayTagMacroGenerator (GTMG for short).
-
-I am preparing to release it on the Unreal Marketplace. If it is successful, I will write a post to share my experience with submitting products to the marketplace.![Screenshot1](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/images/chidai.jpg)
+[Marketplace link](https://www.unrealengine.com/marketplace/zh-CN/product/7fcb315a0984496092e5ee3bc48b2606)
 
 ## Features
 
