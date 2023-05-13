@@ -45,6 +45,10 @@ It's very smooth and elegant. I'm truly amazed by it.
 
 ## GameplayTagMacroGenerator plugin
 
+Later, I rewrote the EditorBlueprintUtility in C++ at home and added editor support to improve the user experience.
+
+I named it GameplayTagMacroGenerator (GTMG for short).
+
 [Marketplace link](https://www.unrealengine.com/marketplace/zh-CN/product/7fcb315a0984496092e5ee3bc48b2606)
 
 ## Features
