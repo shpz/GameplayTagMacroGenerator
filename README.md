@@ -8,9 +8,7 @@ Unreal Engine based plugin for generate GameplayTag macro code. Safe, elegant, s
 
 ---------
 
-> 04/30/2023 TypeScript macro generator has been supported.
-
-## introduce
+## Introduce
 GameplayTag is heavily used in the project through Blueprints and C++. The following are the ways that everyone adds GameplayTags:
 
 Add a DataTable with TableRow set to FGameplayTagTableRow in the settings.
@@ -45,6 +43,12 @@ It's very smooth and elegant. I'm truly amazed by it.
 
 ## GameplayTagMacroGenerator plugin
 
+![C++ GameplayTag Macro](https://github.com/shpz/GameplayTagMacroGenerator/assets/23391532/5ee30943-73d9-43d3-bdf0-e0b035e7b5ea)
+
+![PuerTS Gameplay Macro](https://github.com/shpz/GameplayTagMacroGenerator/assets/23391532/bb372095-24df-4354-a623-ef43b8784ebc)
+
+![UnLua GameplayTag Macro](https://github.com/shpz/GameplayTagMacroGenerator/assets/23391532/e1fb780b-2ae2-42ff-ab17-a83bfa1e35be)
+
 Later, I rewrote the EditorBlueprintUtility in C++ at home and added editor support to improve the user experience.
 
 I named it GameplayTagMacroGenerator (GTMG for short).
@@ -64,22 +68,11 @@ I named it GameplayTagMacroGenerator (GTMG for short).
 ```
 The GameplayTag collection source includes the GameplayTagTableList in settings and the DefaultGameplayTags.ini configuration file.
 2. Check if the GameplayTag is duplicated. Duplicated GameplayTags will be printed as warnings in the console.
-3. In addition to support for C++ macros, it also supports popular script language frameworks such as Unlua and Puerts.
+3. In addition to support for C++ macros, it also supports popular script language frameworks such as UnLua and PuerTS.
 4. Full code comments are provided for easy secondary development and learning.
-5. Sure, here is the translation of my previous response:
-``` C++
-// Line comments
-```
-
-AND
-
-```
-/**
- *	Documention comments
- */
-```
-
-6. Aligning C++ code makes compulsive disorders feel comfortable.
+5. Three Comment styles available: Empty, Line comment, and Document comment.
+6. Configuration file supports relative paths, making multi-person more friendly. Thanks to the community developer **@EnderHorror** for feedback.
+7. Support version control and multilingual GameplayTag. Thanks to community developer **@EnderHorror** for contributing relevant code.
 
 ## Usage
 
@@ -123,7 +116,7 @@ AND
 
     **CppMacroFileOutputName**: file name, default to MyGameplayTags, can be modified at will
 
-    **CommentStyle**: Comment style, default to document comment, with two options: document comment and line comment
+    **CommentStyle**: Comment style, default to Document comment, with three options: Document comment, Line Comment, and Empty.
 
 8. Click ![LOGO](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/images/Icon20.png "LOGO") generate macro file, then you can obtain the target GameplayTag through a macro in code.
 
