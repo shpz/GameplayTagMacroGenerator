@@ -67,11 +67,17 @@ I named it GameplayTagMacroGenerator (GTMG for short).
 #endif
 ```
 The GameplayTag collection source includes the GameplayTagTableList in settings and the DefaultGameplayTags.ini configuration file.
+
 2. Check if the GameplayTag is duplicated. Duplicated GameplayTags will be printed as warnings in the console.
+
 3. In addition to support for C++ macros, it also supports popular script language frameworks such as UnLua and PuerTS.
+
 4. Full code comments are provided for easy secondary development and learning.
+
 5. Three Comment styles available: Empty, Line comment, and Document comment.
+
 6. Configuration file supports relative paths, making multi-person more friendly. Thanks to the community developer **@EnderHorror** for feedback.
+
 7. Support version control and multilingual GameplayTag. Thanks to community developer **@EnderHorror** for contributing relevant code.
 
 ## Usage
