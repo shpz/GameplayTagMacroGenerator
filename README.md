@@ -43,9 +43,9 @@ It's very smooth and elegant. I'm truly amazed by it.
 
 ## GameplayTagMacroGenerator plugin
 
-![C++ GameplayTag Macro](https://github.com/shpz/GameplayTagMacroGenerator/assets/23391532/5ee30943-73d9-43d3-bdf0-e0b035e7b5ea)
+![C++ GameplayTag Macro](https://github.com/shpz/GameplayTagMacroGenerator/assets/23391532/c3cf6ef3-f31b-4a74-b824-f6713aae4883)
 
-![PuerTS Gameplay Macro](https://github.com/shpz/GameplayTagMacroGenerator/assets/23391532/bb372095-24df-4354-a623-ef43b8784ebc)
+![PuerTS GameplayTag Macro](https://github.com/shpz/GameplayTagMacroGenerator/assets/23391532/bb372095-24df-4354-a623-ef43b8784ebc)
 
 ![UnLua GameplayTag Macro](https://github.com/shpz/GameplayTagMacroGenerator/assets/23391532/e1fb780b-2ae2-42ff-ab17-a83bfa1e35be)
 
@@ -126,4 +126,5 @@ The GameplayTag collection source includes the GameplayTagTableList in settings 
 
 8. Click ![LOGO](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/images/Icon20.png "LOGO") generate macro file, then you can obtain the target GameplayTag through a macro in code.
 
-    ![Screenshot7](https://raw.githubusercontent.com/shpz/GameplayTagMacroGenerator/master/images/Screenshot8.png)
+    ![Screenshot8](https://github.com/shpz/GameplayTagMacroGenerator/assets/23391532/45293a3d-0d3e-4c67-90c5-9a271627d86a)
+
