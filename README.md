@@ -25,7 +25,7 @@ Clearly, we need order and rules!
 
 3. Each child GameplayTagDataTable only contains one type of GameplayTag, for example, the UI DataTable is named DT_UIGameplayTags.
 
-4. Each child GameplayTagDataTable has a fixed prefix. For example, the UI-related GameplayTags are named http://UI.XXX.XXX.
+4. Each child GameplayTagDataTable has a fixed prefix. For example, the UI-related GameplayTags are named UI.XXX.XXX.
 
 5. We created an EditorBlueprintUtility in Blueprint to check for duplicate GameplayTags in the DataTables and generate code like this:
 ``` C++
